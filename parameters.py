@@ -5,13 +5,13 @@ run_name = 'quickstart' # will appear at the end of the output filenames
 verbose = 0 # True to print the timestep 
 nprint = 1 # print out the time to the terminal after every nprint timesteps if verbose = 1
 outint = 0.5 # time interval for output (in units of the system time)
-trun = 10. # expected elapsed system time at finish
+trun = 20. # expected elapsed system time at finish
 nsteps = int(1e9) # maximum number of timesteps allowed
 
 ###############################
 # resolution
 ###############################
-nr = 64 # number of radial grid points
+nr = 128 # number of radial grid points
 nphi = nr*2 # number of azimuthal grid points
 
 ###############################
